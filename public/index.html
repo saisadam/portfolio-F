@@ -77,19 +77,19 @@
         <a href="#projects">Project</a>
         <a href="#contact">Contact</a>
         </div>
-        <a href="mailto:saisadam.in@gmail.com">Hire me</a>
+       <a href="mailto:saisadam.in@gmail.com" onclick="gtag('event','hire_me_click');"> Hire Me</a>
     </nav>
 </header>
 <div class="social-links">
-    <a href="https://www.linkedin.com/in/saisadam/">
+    <a href="https://www.linkedin.com/in/saisadam/" onclick="gtag('event','linkedin_click');">
         <img src="images/linkedin.png" class="social-icon">
     </a>
 
-    <a href="https://github.com/saisadam">
+    <a href="https://github.com/saisadam" onclick="gtag('event','github_click');">
         <img src="images/github.png" class="social-icon">
     </a>
 
-    <a href="https://ig.me/m/sai_sadam_">
+    <a href="https://ig.me/m/sai_sadam_" onclick="gtag('event','instagram_click');">
         <img src="images/instagram.png" class="social-icon">
     </a>
     <a href="https://www.saisadam.in/#contact">
@@ -118,17 +118,17 @@
         <div class="buttons">
 
             <button class="primary-btn"
-                onclick="window.location.href='#projects'">
+                onclick="window.location.href='#projects'" onmouseover="gtag('event','view_work_hover');" onclick="gtag('event','view_work_click');">
                 View My Work
             </button>
 
             <button class="secondary-btn"
-                onclick="window.location.href='#contact'">
+                onclick="window.location.href='#contact'" onmouseover="gtag('event','contact_hover');" onclick="gtag('event','contact_click');">
                 Contact Me
             </button>
 
             <button class="resume-btn"
-                onclick="window.open('RESUME.pdf')">
+                onclick="window.open('RESUME.pdf')" onmouseover="gtag('event','download_resume_hover');" onclick="gtag('event','download_resume_click');">
                 Download Resume
             </button>
 
@@ -138,7 +138,7 @@
 
     <div class="hero-image">
 
-        <img src="images/sai portfolio.jpg"
+        <img src="images/sai portfolio.jpg" onmouseover="gtag('event','profile_hover');"
             alt="Sai Sadam">
 
     </div>
