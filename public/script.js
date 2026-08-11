@@ -45,3 +45,9 @@ form.addEventListener("submit", async (e) => {
     }
 
 });
+const menu = document.getElementById("menu-toggle");
+const links = document.getElementById("nav-links");
+
+menu.onclick = () => {
+    links.classList.toggle("active");
+};
