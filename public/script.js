@@ -45,9 +45,11 @@ form.addEventListener("submit", async (e) => {
     }
 
 });
-const menu = document.getElementById("menu-toggle");
-const links = document.getElementById("nav-links");
+// Mobile Navigation Toggle
 
-menu.onclick = () => {
-    links.classList.toggle("active");
-};
+const menuToggle = document.getElementById("menu-toggle");
+const navLinks = document.querySelector(".nav-links");
+
+menuToggle.addEventListener("click", () => {
+    navLinks.classList.toggle("active");
+});
