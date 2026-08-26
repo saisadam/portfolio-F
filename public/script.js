@@ -107,3 +107,4 @@ document.querySelectorAll(".nav-links a").forEach(link => {
     });
 
 });
+/* =========================== ABOUT READ MORE =========================== */ function toggleAbout() { const aboutText = document.querySelector(".about-text"); const button = document.querySelector(".read-more-btn"); /* Toggle expanded state */ aboutText.classList.toggle("expanded"); /* Change button text */ if (aboutText.classList.contains("expanded")) { button.textContent = "Read Less"; button.setAttribute( "aria-expanded", "true" ); } else { button.textContent = "Read More"; button.setAttribute( "aria-expanded", "false" ); } }
